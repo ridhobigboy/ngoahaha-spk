@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from stpk-ahp.herokuapp.com/users/sign_in by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Jan 2019 04:03:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Login</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="C26PQ1ly7+J1URNNpXLUwc6Uyoq8SuVHgSrip+nzZNkKKQt/wOfHj23cqaM8H3bkuTnOk1a2rM6lmfsiy0mDcA==" />
+  </head>
+<link rel="stylesheet" media="all" href="../assets/application-2f65499cf1ed3a32efd103bebeaf6f9dad58af348b5207bea66706cd644806f6.css" />
+<script src="../assets/application-801f0e50e2d432e32cfa4a254c9442a5cc9375cf6c892766460813132319a510.js"></script>
+<script>
+  $(function () {
+    $('input').iCheck({
+      checkboxClass: 'icheckbox_square-blue',
+      radioClass: 'iradio_square-blue',
+      increaseArea: '20%' // optional
+    });
+  });
+</script>
+<body class="hold-transition login-page">
+<div class="login-box">
+  <div class="login-logo">
+    <a href="../index2.html"><b>Admin</b>Login</a>
+  </div>
+  <div class="login-box-body">
+    <p class="login-box-msg">Silahkan login untuk melanjutkan</p>
+      <form class="new_user" id="new_user" action="https://stpk-ahp.herokuapp.com/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KuCXUGbUndU+BsZOJNNkL5/KRKU2adaZKqyaPwt0vSf9RY5JKT5I5x28SdhsKirVfAVujE0AsoNLyuIdIrXBfg==" />
+        <div class="form-group has-feedback">
+          <input autofocus="autofocus" type="email" class="form-control" placeholder="Email" value="" name="user[email]" id="user_email" />
+          <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+        </div>
+
+        <div class="form-group has-feedback">
+          <input autocomplete="off" type="password" class="form-control" placeholder="Password" name="user[password]" id="user_password" />
+          <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+        </div>
+        <div class="row">
+          <div class="col-xs-8">
+            <div class="checkbox icheck">
+              <label>
+                  <div class="field">
+                    <input name="user[remember_me]" type="hidden" value="0" /><input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me" />
+                    <label for="user_remember_me">Remember me</label>
+                  </div>
+              </label>
+            </div>
+          </div>
+          <div class="col-xs-4">
+              <input type="submit" name="commit" value="Log in" class="btn btn-primary btn-block btn-flat" data-disable-with="Log in" />
+          </div>
+        </div>
+</form>      
+
+
+
+
+
+      <font color="red">***</font><br>
+      <font color="red">email     : admin@admin.com</font><br>
+      <font color="red">password  : admin123</font>
+  </div>
+</div
+</body>
+</body>
+
+<!-- Mirrored from stpk-ahp.herokuapp.com/users/sign_in by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Jan 2019 04:03:59 GMT -->
+</html>
